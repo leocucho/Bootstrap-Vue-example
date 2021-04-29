@@ -26,6 +26,11 @@
           <router-link :to="{ name: 'Nosotros' }">         
             <span>Nosotros</span>
           </router-link>
+        </li>
+        <li class="nav-item ml-3">
+          <router-link :to="{ name: 'Blog' }">         
+            <span>Blog</span>
+          </router-link>
         </li>        
       </b-navbar-nav>
       

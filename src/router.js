@@ -5,6 +5,7 @@ import Home from './Pages/Home.vue'
 import Tienda from './Pages/Tienda.vue'
 import GaleriaPages from './Pages/GaleriaPages.vue'
 import Nosotros from './Pages/Nosotros.vue'
+import Blog from './Pages/Blog.vue'
 
 
 Vue.use(Router)
@@ -14,6 +15,7 @@ const routes = [
     { path: '/tienda', name: 'Tienda', component: Tienda, props: true },
     { path: '/galeria', name: 'GaleriaPages', component: GaleriaPages, props: true },
     { path: '/nosotros', name: 'Nosotros', component: Nosotros, props: true },
+    { path: '/blog', name: 'Blog', component: Blog, props: true },
 
 ]
 
