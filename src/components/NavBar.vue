@@ -1,6 +1,6 @@
 <template>
     
-  <b-navbar toggleable="lg" type="dark" variant="info" class="navbar-top">
+  <b-navbar toggleable="lg" type="dark" class="navbar-top">
     <b-navbar-brand href="#">Ventanilla Tatto</b-navbar-brand>
 
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>

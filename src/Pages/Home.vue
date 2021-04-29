@@ -3,6 +3,7 @@
         <div class="row">
             <div class="col-12">
                 <img alt="Vue logo" src="../assets/logo.png">                    
+                    <Lista/>
                     <Galeria/>
                     <Artistas/>
                     <Nuevo/>
@@ -21,6 +22,7 @@
 import Nuevo from '../components/Nuevo.vue'
 import Galeria from '../components/Galeria.vue'
 import Artistas from '../components/Artistas.vue'
+import Lista from '../components/Lista.vue'
 
 
 export default {
@@ -28,7 +30,8 @@ export default {
   components: {        
     Nuevo,
     Galeria,
-    Artistas
+    Artistas,
+    Lista
   }
 }
 </script>

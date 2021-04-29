@@ -1,19 +1,21 @@
 h2 {
     color: orange;
-    background-color: orangered;  
+     
 }
 
 .navbar-top {
     padding: 0 15px;
+    background-color: black;
+    color: white;
   
     a {
-      margin: 0 10px;
+      margin: 0 10px 0 0;      
       color: #b1bbae;
-      font-size: 15px;
+      font-size: 18px;
       font-weight: 400;
   
       span {
-        margin: 0 3px;
+        margin: 0 10px 0 0;
       }
     }
   
@@ -43,4 +45,50 @@ h2 {
         border-radius: 50;
         color: orangered;
     }
+}
+
+.footer-bottom{
+
+  padding: 0 15px;
+  background-color: black;
+  color: white;
+
+  a {
+    margin: 0 10px;
+    color: #b1bbae;
+    font-size: 15px;
+    font-weight: 400;
+
+    span {
+      margin: 0 3px;
+    }
+  }
+
+  li {
+    @media (max-width: 983.98px) {
+      padding: 10px 0;
+      border-bottom: solid 1px #b1bbae70;
+    }
+  }
+
+  .menu-search {
+    @media (max-width: 575.98px) {
+      margin-top: 10px;
+    }
+  }
+
+  
+
+  .nav-item-ml-3 {
+    display: inline-block;
+                
+  }
+}
+
+.artistas {
+  h3{
+      border-radius: 50;
+      color: orangered;
+  }
+
 }
