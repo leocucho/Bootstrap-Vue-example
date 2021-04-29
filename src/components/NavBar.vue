@@ -13,7 +13,7 @@
           </router-link>
         </li>
         <li class="nav-item ml-3">
-          <router-link :to="{ name: '' }">           
+          <router-link :to="{ name: 'GaleriaPages' }">           
             <span>Galeria</span>
           </router-link>
         </li>
@@ -23,7 +23,7 @@
           </router-link>
         </li>
         <li class="nav-item ml-3">
-          <router-link :to="{ name: '' }">         
+          <router-link :to="{ name: 'Nosotros' }">         
             <span>Nosotros</span>
           </router-link>
         </li>        
