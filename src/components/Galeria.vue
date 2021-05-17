@@ -34,7 +34,7 @@
             class="d-block img-fluid w-100"
             width="1024"
             height="480"
-            src="https://picsum.photos/1024/480/?image=55"
+            src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fco.pinterest.com%2Fpin%2F643592602982644788%2F&psig=AOvVaw0OsrUncRVjr2arkANQgqwa&ust=1621315407072000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCKCXjNn8z_ACFQAAAAAdAAAAABAI"
             alt="image slot"
           >
         </template>
